@@ -1,6 +1,4 @@
-hello:hello.o
-	gcc hello.o -o hello
-hello.o:hello.c
-	gcc -c hello.c -o hello.o
+hello:hello.c
+	gcc hello.c -o hello
 clean:
-	rm hello.o 
+	rm hello log
