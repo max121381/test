@@ -10,7 +10,9 @@ int main()
 	}
 	printf("hello world!\n");
 	fprintf(f, "hello,world!\n");
+	fseek(f ,  0, SEEK_SET);
 	fgets(buf ,99 ,f);
+
 	printf("%s", buf);
 	fclose(f);
 	return 0;
