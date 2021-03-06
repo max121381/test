@@ -4,7 +4,7 @@ int add_range(int low,int high)
 	int sum,i;
 	for(i = low; i<=high; i++)
 	{
-		int sum, i;
+		int sum = 0, i;
 		for(i = low; i <= high; i++)
 		{
 			sum = sum + i;
